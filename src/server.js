@@ -18,7 +18,7 @@ app.use(BodyParser.json());
 
 
 
-const connectionString = "mongodb+srv://shsu:9SNj05vFS7t57QyA@cluster0.kp0y5.mongodb.net/shsu_chatapp?retryWrites=true&w=majority";
+const connectionString = process.env.ConnectionString;
 
 
   mongoose.connect(connectionString ,
