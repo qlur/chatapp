@@ -1,2 +1,1 @@
-# chatapp
-# chatapp
+# SHSU ChatApp
