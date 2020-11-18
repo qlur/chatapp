@@ -1,0 +1,65 @@
+/* MAIN STYLE SHEET */
+
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+@import "./framework";
+@import "./mainSty";
+
+a:hover{
+    color: #fff!important;
+}
+
+.messages-container-owner li {
+    background: #289be2;
+    color: #fff;
+}
+
+.message {
+    font-family: inherit!important;
+    font-size: 15px;
+}
+
+
+body.dark-mode {
+    background-color: black!important;
+    color: white;
+  }
+
+
+  body.dark-mode h5 {
+    color: #cdcdcd;
+}
+
+span.tos {
+    font-size: 12px;
+}
+
+span.tos a {
+    color: #006fb4!important;
+}
+
+
+.myCheckbox input {
+    position: relative;
+    z-index: -9999;
+  }
+  
+  .myCheckbox span {
+    width: 20px;
+    height: 20px;
+    display: block;
+    // background: url("link_to_image");
+  }
+  
+
+
+  .myCheckbox label {
+    font-size: 11px;
+    font-weight: 300;
+    display: inline;
+    margin-bottom: 10px;
+}
+
+label.myCheckbox {
+    margin: 10px 10px;
+}
